@@ -30,4 +30,14 @@ public class FizzBuzzTest {
 	public void shouldReturnBuzzWithNumberFive() {
 		assertEquals("Buzz",FizBuzz.execute(5));
 	}
+	
+	@Test
+	public void shouldReturnFizzBuzzWithNumberFifteen() {
+		assertEquals("FizzBuzz",FizBuzz.execute(15));
+	}
+	
+	@Test
+	public void shouldReturnFizzBuzzWithNumberThirty() {
+		assertEquals("FizzBuzz",FizBuzz.execute(30));
+	}
 }
