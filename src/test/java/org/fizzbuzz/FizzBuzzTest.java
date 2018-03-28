@@ -17,7 +17,17 @@ public class FizzBuzzTest {
 	}
 	
 	@Test
-	public void shouldReturnFizz() {
+	public void shouldReturnFizzWithNumberThree() {
 		assertEquals("Fizz",FizBuzz.execute(3));
+	}
+	
+	@Test
+	public void shouldReturnFizzWithNumberSix() {
+		assertEquals("Fizz",FizBuzz.execute(6));
+	}
+	
+	@Test
+	public void shouldReturnBuzzWithNumberFive() {
+		assertEquals("Buzz",FizBuzz.execute(5));
 	}
 }
