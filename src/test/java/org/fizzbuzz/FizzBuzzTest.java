@@ -6,6 +6,7 @@ import org.junit.Test;
 
 public class FizzBuzzTest {
 
+	
 	@Test
 	public void shouldReturnOne() {
 		assertEquals("1",FizBuzz.execute(1));
@@ -39,5 +40,10 @@ public class FizzBuzzTest {
 	@Test
 	public void shouldReturnFizzBuzzWithNumberThirty() {
 		assertEquals("FizzBuzz",FizBuzz.execute(30));
+	}
+	
+	@Test
+	public void shouldReturnZero() {
+		assertEquals("0",FizBuzz.execute(0));
 	}
 }
